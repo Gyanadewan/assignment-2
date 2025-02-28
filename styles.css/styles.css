@@ -234,14 +234,13 @@
 }
 
 /* footer styles */
-footer{
-  background-color: #01ACFD;
-}
 .footer{
+  background-color: #01ACFD;
   justify-content: space-around;
   color: white;
   padding: 123px 0;
 }
+
 .kids>img{
   width: 90px;
   height: 90px;
