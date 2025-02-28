@@ -14,7 +14,7 @@
     display: flex;
  }
 
- .navbar,.banner,.School-curriculum,.btn-container{
+ .navbar,.banner,.School-curriculum,.btn-container,.Our-stories{
   max-width: 1160px;
   margin: 0 auto;
 }
@@ -170,8 +170,68 @@
 }
 
 
+/* Our stories styles */
 
+.Our-stories{
+  padding-bottom: 60px;
+}
+.stories-title{
+  font-weight: bold;
+  font-size: 16px;
+  margin: 40px 40px;
+}
+.stories-description{
+  width: 430px;
+  height: 75px;
+  margin-left: 35px;
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 16px;
 
+}
+.stories-classroom{
+  margin-right: 20px;
+  width: 100%;
+  height: 630px;
+  background-color: white;
+  border-radius: 14px;
+}
+.stories{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+}
+.stories-1,.stories-2,.stories-3,.stories-4{
+  background-color: white;
+  width: 290px;
+  height: 300px;
+  border-radius: 14px;
+  border: 2px;
+
+}
+.stories-1>img,.stories-2>img,.stories-3>img,.stories-4>img,.classroom>img{
+  border-radius: 14px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.November{
+  color: white;
+  background-color: skyblue;
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  margin-left: 40px;
+  margin-top: -2rem;
+}
+.View-all{
+  background-color: black;
+  margin-left: 500px;
+  margin-top: 80px;
+
+}
 
 
 
@@ -206,7 +266,7 @@
     background: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.nav-link, .school-title, .btn-contact{
+.nav-link, .school-title,.btn-contact{
   display: none;
 }
 
@@ -219,33 +279,59 @@
 /* banner styles */
 .banner {
   flex-direction: column;
- flex-direction: column-reverse;
+  flex-direction: column-reverse;
   text-align: center;
   width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 50px;
 }
 
 .banner-container {
   max-width: 100%;
   padding: 0 20px;
 }
-
-
-
+    /* school curriculum */
+ 
   .Curriculum{
     grid-template-columns: repeat(1,1fr);
     margin: 0 10px;
   }
+  .School-curriculum{
+   padding: 0 20px;
+  }
   .btn-container{
     display: none;
   }
+  /* Our-stories styles */
+ 
+  .stories{
+   display: grid;
+   gap: 20px;
+   grid-template-columns: 1fr;
+   padding-left: 30px;
+}
+
+.stories-title{
+  margin: 40px 20px;
+}
+.stories-1,.stories-2,.stories-3,.stories-4{
+  width: 100%;
+}
+
+  .View-all{
+   display: grid;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 170px;
+  }
+
+.training-classroom{
+  display: none;
 }
 
 
 
-
- 
+}
 
 
 
